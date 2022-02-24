@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trò chơi đoán số
+        
+    </title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+   <div id="container">
+<header >
+<h1 >Trò chơi đoán xổ số</h1>
+</header>
+
+    <div id="body-container" >
+       <h1>Luật chơi</h1>
+       <ul style="text-align: center;font-size: 20px;">
+           <li>Ở đây chúng tôi có 1 con số bí ẩn </li>
+           <li>Nhiệm vụ của bạn là tìm ra được con số đó</li>
+           <li>Have fun</li>
+           <li></li>
+       </ul>
+    </div>
+    
+<form id="btn">
+   <div id="myBtn">Play</div>
+   <div id="myModal" class="modal" style="text-align: center;">
+
+   
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="modal-body">
+        <p style="font-family: Arial, Helvetica, sans-serif;font-weight: bold;">Dự đoán con số nằm trong khoảng từ 1 đến 100</p>
+        <p style="color: white;"></p>
+      </div>
+      <div class="modal-footer">
+    <form action="">
+        <input placeholder="Nhập con số mà bạn dự đoán" id="hello" >
+        <button  id="btn2" onclick="roll()" type="button">Quay số</button><br>
+        <h2 id="result" ></h2>
+    </form>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+</form>
+
+ 
+
+
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
